@@ -1,0 +1,186 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight:medium;
+}
+*:focus{
+   outline: none;
+}
+
+*:active{
+   outline: none;
+}
+.wrapper {
+  cursor: url("assets/cursor2.png"), pointer;
+  position:fixed;
+  overflow:hidden;
+  height: 100vh;
+  width: 100vw;
+  transform:scale(1.3);
+  background-image: url(assets/fond.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  font-size:0.7rem;
+  color:rgb(57, 60, 148);
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight:medium;
+
+}
+#textHover {
+  display: none;
+  font-size: 0.9rem;
+  margin-top: 40px;
+  padding: 5px;
+  color:rgb(57, 60, 148);
+  width:30vw;
+  z-index:700;
+}
+#logo {
+  position:absolute;
+  width:20vw;
+  top:12vh;
+  left:10vw;
+  transform:scale(0.8);
+}
+
+#description {
+  width:50vw;
+  height:60vh;
+  position:absolute;
+  left:12vw;
+  top:20vh;
+  font-size:1.4rem;
+  overflow-y:scroll;
+  background-color: white;
+  z-index:10;
+}
+
+a {
+  text-decoration:none;
+  background-color: none;
+}
+
+button {
+  border:none;
+  outline:none;
+  background-color:  Transparent;
+}
+
+button:active {
+    outline: none;
+    border: none;
+     background-color:  Transparent;
+}
+
+.vid {
+  position:absolute;
+  z-index:600;
+  top:30vh;
+  left:25vw;
+  display:none;
+}
+
+video {
+outline: none;
+}
+
+.defile{
+margin-left:35px;
+}
+
+.play {
+  z-index:700;
+}
+#lexicon {
+  width:20vw;
+  height:60vh;
+  position:absolute;
+  right:17vw;
+  top:20vh;
+  background-color:white;
+  line-height: 1.4;
+  padding:5px;
+}
+
+#thanks{
+  z-index:20;
+  position:relative;
+  left:15vw;
+  top:25vh;
+  width:40vw;
+  box-shadow: 7px 0px 30px #888888;
+  padding:15px;
+  background-color: white;
+
+}
+
+.close {
+  position:absolute;
+  top:0px;
+  right:25px;
+  padding:10px;
+}
+#images{
+  position:relative;
+  left:15vw;
+  top:25vh;
+  width:45vw;
+  display:none;
+}
+.drag {
+  position:absolute;
+  animation-duration: 2s;
+  animation-name: pop;
+}
+@keyframes pop {
+  from {
+    margin-top: 100%;
+    opacity:0;
+
+  }
+
+  to {
+    margin-top: 0%;
+    opacity:1;
+  }
+}
+
+img{
+  position:absolute;
+}
+
+#logo:hover #textHover{
+ display:block;
+}
+
+.nav {
+  position:fixed;
+  top:12vh;
+  right:15vw;
+}
+
+
+#illustration {
+  position:fixed;
+  bottom:14vh;
+  left:13vw;
+  z-index:300;
+}
+.podcast {
+  position:fixed;
+  right:15vw;
+  top:50vh;
+  width:300px;
+  margin-right:10px;
+  font-family:'Signika';
+  overflow-y: scroll;
+  height:30vh;
+}
+
+
+li{
+  /*list-style: url('assets/playResize.png');*/
+  list-style:none;
+}

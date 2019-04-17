@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FREE_DOM</title>
+
+ <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Signika" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div id="logo">
+      <img src="assets/logo.png" alt="" width="200">
+      <p id="textHover">This title is a tribute to Radio FREEDOM, a free radio created in 1981 in la Réunion, granting freedom of speech to the inhabitants of the Island at a time when the french government was still in  control of the medias.</p>
+    </div>
+    <div class="nav">
+      <a href="about.html"><h2 style="font-size:0.8rem;">WHAT IS THIS PROJECT ABOUT?</h2></a>
+    </div>
+    <div id="illustration">
+      <button onclick="document.getElementById('images').style.display='block';
+      for(var j=0; j<document.getElementsByClassName('.drag').length; j++){
+       document.getElementsByClassName('.drag')[j].style.display='block';
+      }"> <h2>ILLUSTRATION</h2>
+      </button>
+    </div>
+    <div id="images">
+      <div class="drag" id="one">
+        <img src="assets/ambianceTropicale.jpg" width="200" alt="">
+        <button onclick="document.getElementById('one').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div style="left:23vw;" class="drag" id="two">
+        <img src="assets/martinique.jpg" width="200" alt="">
+         <button onclick="document.getElementById('two').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div class="drag" id="three" style="top:25vh;left:25vw">
+        <img src="assets/diabete.jpg" width="200" alt="">
+        <button onclick="document.getElementById('three').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div class="drag" id="four" style="top:1vh;left:37vw">
+        <img src="assets/distance.jpg" width="200" alt="">
+        <button onclick="document.getElementById('four').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div class="drag" id="five" style="top:15vh; left:8vw">
+        <img src="assets/messenger.jpg" width="200" alt="">
+        <button onclick="document.getElementById('five').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div class="drag" id="six" style="top:25vh; left:2vw">
+        <img src="assets/colombe.jpg" width="200" alt="">
+        <button onclick="document.getElementById('six').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div class="drag" id="seven" style="top:38vh; left:15vw">
+        <img src="assets/luxe.jpg" width="200" alt="">
+        <button onclick="document.getElementById('seven').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div class="drag" id="eight" style="top:-12vh;left:13vw">
+        <img src="assets/pont.jpg" width="200" alt="">
+        <button onclick="document.getElementById('eight').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div class="drag" id="nine" style="top:13vh; left:20vw">
+      <img src="assets/resto.jpg" width="200" alt="">
+       <button onclick="document.getElementById('nine').style.display='none';"><img src="assets/close.png" alt=""></button>
+       </div>
+      <div>
+         <button style="z-index:500; position:absolute;top:55vh;left:7vw;"onclick="document.getElementById('images').style.display='none';"><img src="assets/close.png" alt=""></button>
+        </div>
+    </div>
+    <div id="player">
+      <div id="vidOne" class="vid">
+        <video width="320" height="240" controls="true">
+          <source src="assets/videos/LANDING.mp4" type="video/mp4">
+        </video>
+      <button onclick="document.getElementById('vidOne').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div id="vidTwo" class="vid">
+      <video width="320" height="240" controls="true">
+        <source src="assets/videos/EXCLUSIVEHISTORY.mp4" type="video/mp4">
+      </video>
+      <button onclick="document.getElementById('vidTwo').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div id="vidThree" class="vid">
+      <video width="320" height="240" controls="true">
+        <source src="assets/videos/RACIALINEQUALITIES.mp4" type="video/mp4">
+      </video>
+      <button onclick="document.getElementById('vidThree').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div id="vidFour" class="vid">
+        <video width="320" height="240" controls="true">
+          <source src="assets/videos/CREOLEDIGNITY.mp4" type="video/mp4">
+        </video>
+        <button onclick="document.getElementById('vidFour').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div id="vidFive" class="vid">
+        <video width="320" height="240" controls="true">
+          <source src="assets/videos/LAREUNIONMEMES.mp4" type="video/mp4">
+        </video>
+        <button onclick="document.getElementById('vidFive').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div id="vidSix" class="vid">
+        <video width="320" height="240" controls="true">
+          <source src="assets/videos/REDUCINGSOCIALDISPARITIES.mp4" type="video/mp4">
+        </video>
+        <button onclick="document.getElementById('vidSix').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div id="vidSeven" class="vid">
+        <video width="320" height="240" controls="true">
+          <source src="assets/videos/REALEQUALITY.mp4" type="video/mp4">
+        </video>
+        <button onclick="document.getElementById('vidSeven').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+      <div id="vidEight" class="vid">
+        <video width="320" height="240" controls="true">
+          <source src="assets/videos/RENDER.mp4" type="video/mp4">
+        </video>
+        <button onclick="document.getElementById('vidEight').style.display='none';"><img src="assets/close.png" alt=""></button>
+      </div>
+    </div>
+
+    <div class="podcast">
+      <ul>
+        <li><button onclick="document.getElementById('vidTwo').style.display='block';"><img class="play" src="assets/playResize.png" alt=""></button><marquee class="defile" behavior="scroll" scrolldelay="60"  loop="-1" direction="left">EXCLUSIVE HISTORY/NO ONE LEARNS ABOUT THE OVERSEAS </marquee> </li>
+        <li><button onclick="document.getElementById('vidOne').style.display='block';"><img class="play" src="assets/playResize.png" alt=""></button><marquee class="defile" behavior="scroll" scrolldelay="60" loop="-1" direction="left">LANDING IN THE METROPOLE/WELCOME TO PARIS/10000KM AWAY/WHAT IS AN ULTRAMARINE </marquee></li>
+        <li><button onclick="document.getElementById('vidThree').style.display='block';"><img class="play" src="assets/playResize.png" alt=""></button><marquee class="defile" behavior="scroll" scrolldelay="70"  loop="-1" direction="left">RACIAL INEQUALITIES/UNEMPLOYMENT RESENTMENT/RACIAL COMMUNITIES</marquee></li>
+        <li><button onclick="document.getElementById('vidFour').style.display='block';"><img class="play" src="assets/playResize.png" alt=""></button><marquee class="defile" behavior="scroll" scrolldelay="70"  loop="-1" direction="left">CREOLE DIGNITY/PRIDE OR SHAME/HERITAGE/AFRO DESCENDANT IN LA REUNION</marquee></li>
+        <li><button onclick="document.getElementById('vidFive').style.display='block';"><img class="play" src="assets/playResize.png" alt=""></button><marquee class="defile" behavior="scroll" scrolldelay="70"  loop="-1" direction="left">LA REUNION MEMES/UNAWARNESS FROM THE METROPOLE</marquee></li>
+        <li><button onclick="document.getElementById('vidSix').style.display='block';"><img class="play" src="assets/playResize.png" alt=""></button><marquee class="defile" behavior="scroll" scrolldelay="70"  loop="-1" direction="left">REDUCING SOCIAL DISPARITIES THROUGH LANGUAGE/CREOLE AND FRENCH</marquee></li>
+        <li><button onclick="document.getElementById('vidSeven').style.display='block';"><img class="play" src="assets/playResize.png" alt=""></button><marquee class="defile" behavior="scroll" scrolldelay="70"  loop="-1" direction="left">WHAT IS REAL EQUALITY LAW/STOP CATCHING UP WITH THE METROPOLE/WHAT'S UP ON THE ISLAND/FOCUS ON THE LOCAL CONTEXT</marquee></li>
+        <li><button onclick="document.getElementById('vidEight').style.display='block';"><img class="play" src="assets/playResize.png" alt=""></button><marquee class="defile" behavior="scroll" scrolldelay="70"  loop="-1" direction="left">RENDER</marquee></li>
+      </ul>
+    </div>
+  </div>
+
+<script src="sketch.js"></script>
+</body>
+</html>
