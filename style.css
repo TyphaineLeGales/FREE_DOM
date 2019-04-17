@@ -82,6 +82,12 @@ button:active {
   display:none;
 }
 
+.btnVid {
+  position:absolute;
+  top:-20px;
+  left:-25px;
+}
+
 video {
 outline: none;
 }
