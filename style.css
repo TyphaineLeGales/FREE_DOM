@@ -177,7 +177,7 @@ img{
 .podcast {
   position:fixed;
   right:15vw;
-  top:50vh;
+  top:47vh;
   width:300px;
   margin-right:10px;
   font-family:'Signika';
@@ -185,6 +185,13 @@ img{
   height:30vh;
 }
 
+#credit{
+  font-family:'Signika';
+  font-size:0.7rem;
+  position:fixed;
+  right:16vw;
+  bottom:14vh;
+}
 
 li{
   /*list-style: url('assets/playResize.png');*/
