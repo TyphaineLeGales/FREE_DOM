@@ -114,7 +114,7 @@ margin-left:35px;
   z-index:20;
   position:relative;
   left:15vw;
-  top:25vh;
+  bottom:90px;
   width:40vw;
   box-shadow: 7px 0px 30px #888888;
   padding:15px;
@@ -170,7 +170,7 @@ img{
 
 #illustration {
   position:fixed;
-  bottom:14vh;
+  bottom:90px;
   left:13vw;
   z-index:300;
 }
@@ -190,7 +190,7 @@ img{
   font-size:0.7rem;
   position:fixed;
   right:16vw;
-  bottom:14vh;
+  bottom:90px;
 }
 
 li{
