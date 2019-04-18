@@ -170,14 +170,14 @@ img{
 
 #illustration {
   position:fixed;
-  bottom:90px;
+  bottom:20vh;
   left:13vw;
   z-index:300;
 }
 .podcast {
   position:fixed;
   right:15vw;
-  top:47vh;
+  bottom:25vh;
   width:300px;
   margin-right:10px;
   font-family:'Signika';
@@ -190,7 +190,7 @@ img{
   font-size:0.7rem;
   position:fixed;
   right:16vw;
-  bottom:90px;
+  bottom:20vh;
 }
 
 li{
